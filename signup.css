@@ -1,0 +1,16 @@
+.submit
+{
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 1px solid \;
+    box-shadow: 0.1em 0.2em white;
+}
+
+.formtext
+{
+    font-family: monospace;
+    padding: 10pt;
+    font-size: 12pt;
+    background-color: gainsboro
+}

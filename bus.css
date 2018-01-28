@@ -1,0 +1,226 @@
+*
+{
+   margin:0;
+}
+
+.wrapper{
+    
+    width: 800px;
+    background: :#ee3;
+    margin: 0 auto 0 auto; /*learn auto for margin*/
+    
+    }
+
+.heading
+{
+    height: 100px;
+    background: red;
+    padding: 20px;
+    text-align: center;
+    color: darkblue;
+    font-family: monospace;
+    font-size: 50pt;
+    text-shadow: 0.1em 0.05em white;
+}
+
+p
+{
+    margin-top: 30px;
+    font-family: georgia;
+    padding: 20px;
+    font-size: 45pt;
+    color: papayawhip;
+    height: 265px;
+    background: darkblue;
+}
+
+.title
+{
+    font-family: fantasy;
+    font-size: 20pt;
+    background: black;
+    color: orangered;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    font-family: monospace;
+    border: 50px blue;
+}
+
+.navigation
+{
+    height: 20px;
+    background: navy;
+    color: azure;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: impact;
+    font-size: 16pt;
+    border: 2px solid red;
+    
+}
+
+.navigation ul
+{
+    text-align: center;
+    
+
+}
+
+.navigation ul li
+{
+    display: inline;
+    margin-right: 30px;
+    padding: 6px;
+}
+
+.navigation a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.navigation a:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+.content
+{
+    min-height: 400px;
+    background: #ddd;
+    width:580px; 
+    float: left;
+    padding: 5px;
+}
+
+.sidebar
+{
+    width: 180px;
+    float: right;   /*learn*/
+    background: #234;
+    min-height: 400px;
+    padding:10px;
+    font-size: 15pt;
+    color: white;
+    border-radius: 9pt;
+    
+}
+
+.signup
+{
+    color: bisque;
+    top: 5px;
+    padding: 10px;
+    font-family: georgia;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+.signup:hover
+{
+    box-shadow: opx 0px 10px;
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.login:hover
+{
+    box-shadow: opx 0px 10px;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.login
+{
+    color: bisque;
+    top: 5px;
+    padding: 10px;
+    font-family: georgia;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px yellow;
+    
+}
+
+.sidebarmenu ul li
+{
+    display: list-item;
+    margin-right: 30px;
+    padding: 6px;
+}
+
+.sidebarmenu ul li a
+{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.sidebarmenu ul li a:hover
+{
+    color: indianred;
+    text-decoration: underline;
+}
+
+.fromcity
+{
+    width: 220px;
+    height: 40px;
+    font-size: 15pt;
+    margin: 20px;
+}
+
+.tocity
+{
+    width: 220px;
+    height: 40px;
+    font-size: 15pt;
+    margin: 20px;
+}
+
+.from
+{
+    font-family: monospace;
+    font-size: 18pt;
+    background: navy;
+    color: papayawhip;
+    padding: 10px;
+    border-radius: 10pt;
+    
+}
+
+.date
+{
+   width: 200px;
+   height: 30px;
+   font-size: 16pt;
+}
+
+
+.search
+{
+    padding: 10pt;
+    border-radius: 5pt;
+    width: 100px;
+    background: white;
+    border: 2px solid;
+    font-family: monospace;
+    
+}
+.footer
+{ 
+    clear: both;
+    background:black;
+    height:30px;
+    color: white;
+    text-align: center;
+    padding: px;
+    font-family: serif;
+    font-size: 15pt;
+}
